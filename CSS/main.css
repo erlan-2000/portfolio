@@ -332,7 +332,6 @@ img {
 
 .footer {
 	padding-top: 5px;
-	padding-bottom: 30px;
 }
 
 .footer-cta-title {
@@ -366,6 +365,7 @@ img {
 	}
 }
 
+/* -------------------------------------------- */
 /* -------------- Project page ---------------- */ 
 
 .header-inner {
@@ -396,6 +396,16 @@ img {
 	font-size: 32px;
 	font-weight: 700;
 	letter-spacing: 0.38px;
+}
+
+.header-inner a {
+	text-decoration: none;
+	color: black;
+}
+
+.header-inner a:hover {
+	text-decoration: none;
+	color: #535c68;
 }
 
 .single-project {
@@ -515,4 +525,40 @@ img {
 
 .single-project-switch a:hover {
 	color: #2fd6f7;
+}
+
+/* --------- Ссылки на другие страницы ------------ */
+
+.link-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	background-color: #2c3e50;
+	height: 150px;
+
+}
+
+.link-page_site {
+	margin-right: 30px;
+	height: 50px;
+	width: 400px;
+	font-size: 18px;
+	font-weight: 300;
+	background-color: #f0932b;
+	border-radius: 10px;
+}
+
+.link-page_site:last-child {
+	margin-right: 0;
+}
+
+.link-page_site a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	color: black;
+	text-decoration: none;
 }

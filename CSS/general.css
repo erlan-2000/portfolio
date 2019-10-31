@@ -40,6 +40,16 @@ img {
     margin: 0;
 }
 
+.heading-inner a {
+    color: black;
+    text-decoration: none;
+}
+
+.heading-inner a:hover {
+    color: #535c68;
+    text-decoration: none;
+}
+
 .heading-inner span {
     display: inline-block;
     line-height: 1;
